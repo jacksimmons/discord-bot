@@ -5,7 +5,8 @@ Create ".env" file in the base directory with contents `TOKEN = (Token goes here
 
 If python is installed, run these terminal commands in the base directory:  
 ```
-py -m venv .  
+py -m venv .
+./Scripts/activate.(bat|ps1)
 py -m ensurepip --default-pip  
 py -m pip install -r requirements.txt  
 ```
